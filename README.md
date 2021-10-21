@@ -27,16 +27,16 @@ Orbitals are grouped in shells indicated by increasing numeric values of the
 
 ## Subshells
 
-Within the shells are subshells indicated by numeric or letter values of 
+Within the shells are subshells indicated by numeric or letter values of
 the **azimuthal** quantum number, 'l'.
 
 The letters used to name subshells derive from early observations of atoms.
 
-0 - s - sharp
-1 - p - principal
-2 - d - diffuse
-3 - f - fundamental
-4, 5, 6, 7... - g, h, j, k...
+* 0 - s - sharp
+* 1 - p - principal
+* 2 - d - diffuse
+* 3 - f - fundamental
+* 4, 5, 6, 7... - g, h, j, k...
 
 So subshells are named according to their 'n' and 'l' values, e.g. '4p'
 
