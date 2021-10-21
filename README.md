@@ -102,7 +102,12 @@ E.g. '...,4p4'
 Lithium has an atomic number of 3.
 The loweset energy orbitals are 1s and 2s, each contain up to two electrons.
 So Lithium's electron configuration is 1s2, 2s1.
-In this case, the program prints out `[(1, :s, 2), [(2, :s, 1)]]`
+
+```
+$ iex -S mix
+iex> Orbitals.configurations_for(3) |> Stream.map(&Orbitals.configuration_signature(&1)) |> Enum.to_list() |> Enum.join(", ")
+"1s2, 2s1"
+```
 
 # Documentation
 
